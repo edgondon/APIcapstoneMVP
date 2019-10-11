@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is to get a list of National Parks for a Requested State</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div>
+        <h1>
+            Enter a 2 Letter State to see a list of Parks in that area.
+        </h1>
+
+    </div>
+    
+    
+
+    <div>
+        <form>
+
+        </form>
+
+    </div>
+
+    <div id="map" class="hidden"></div>
+    <div id="events" class="hidden"></div>
+
+    <div>
+        <h2 id="errod">
+            
+        </h2>
+    </div>
+    <ul class="results">
+
+    </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBssP3Kjt5eSXYxMti1CH9lxZh8Me7S7uY&callback=initMap">
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
