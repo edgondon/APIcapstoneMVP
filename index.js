@@ -105,9 +105,9 @@ function geoClouder(t) {
 $("form").append(`
 <label for="State">Enter Radius of Search in Miles</label>
 <input type="number" id="radiuss" name="Radius" min="1" max="100" value="25" required>
-<label for="State">FIRST DATE IN RANGE YYYY-MM-DD</label>
+<label for="State">EARLIEST DATE OF EVENTS</label>
 <input type="date" id="alpha" name="State" value="${today}" required>
-<label for="numSearch">SECOND DATE IN RANGE YYYY-MM-DD</label>
+<label for="numSearch">LATEST DATE OF EVENTS</label>
 <input type="date" id="omega" name="numSearch" value="${today2}">
 <input type="submit"  value="Submit Request">`);
   

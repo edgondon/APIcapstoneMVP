@@ -1,17 +1,5 @@
-Distinct Views:
-A screen where upon landing the page shows a form with 3 inputs: Radius in Miles, Start Date, 
-and End Date.
-.
-This Screen will Also show the Results of the 3 inputs once the form is submitted.
+Local Events Query App
 
-After Form Submission:
-A list of events meeting the 3 inputs on the top of the page will be listed in the left
-side of the screen, along with a map showing on the center of the page. A maximum of 190
-listings is allowed with only one page rendered for all listings.
-.
-For each event listing an option will be provided for getting Directions.  After
-choosing the directions button and pressing submit the user will be shown written directions
-as well as be able to visually see the directions portrayed upon the map.
-.
-If the user would like to purchase tickets for an event, they will be able to press the link
-shown for each event, using their mouse.  Upon opening the link a new tab will be opened.
+This app allows the user to find events in their local area.
+The features included in the App will allow a date range filter as well as a filter
+for a range (radius) in miles around the user's location.
